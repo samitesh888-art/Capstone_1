@@ -28,7 +28,44 @@ I will create an Excel PivotChart to show how New Jersey revenue changes over ti
 
 \*\*Region:\*\* Northeast
 
+## Analysis
 
+I used MySQL to analyze EmporiUm’s in-store sales in New Jersey from
+2022 through 2025. The analysis covers total revenue, monthly revenue
+trends, New Jersey’s share of Northeast revenue, monthly sales counts
+and average sale amounts by product category, and store performance.
+
+## Key Findings
+
+- New Jersey generated **$5,175,405.87** in in-store revenue, accounting
+  for **21.35%** of the Northeast region’s **$24,237,526.98**.
+- Annual revenue increased from approximately **$879,000 in 2022**
+  to **$1.87 million in 2025**. **October 2025** was the highest-revenue
+  month at **$250,830.46**.
+- **Newark** ranked first among 16 stores with recorded sales, generating
+  **$623,163.53**, followed by **Trenton** at **$597,565.68**.
+  **Paterson** ranked last at **$67,112.57**.
+
+## Recommendation for Next Quarter
+
+Verify Paterson’s operating status and confirm that its sales records are
+complete before spending money on a promotion. Its last recorded sale was
+November 30, 2024, while other New Jersey stores recorded sales through
+December 2025. Paterson also had a higher average sale amount than Newark
+($157.17 versus $140.26), but far fewer recorded sales (427 versus 4,443).
+If Paterson is still operating and its records are complete, investigate
+what is driving its low sales volume.
+
+Review which stores and product categories contributed to the October 2025
+peak to see whether those sales gains can be repeated.
+
+## Project Files
+
+- [Territory SQL analysis](balcha_sales_analysis.sql) — Queries for the
+  six territory questions.
+- [Monthly revenue PivotChart](balcha_territory_chart.xlsx) — Excel
+  workbook showing New Jersey’s monthly in-store revenue.
+- [Bonus SQL queries](balcha_bonus_queries.sql) — Additional SQL analysis.
 
 ### \## Tools
 
